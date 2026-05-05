@@ -1,0 +1,132 @@
+:root {
+  --bg: #0f1115;
+  --surface: #181b22;
+  --surface-2: #20242d;
+  --text: #f5f6f8;
+  --muted: #9aa3b2;
+  --accent: #ffd166;
+  --accent-ink: #1a1300;
+  --radius: 18px;
+  --shadow: 0 10px 30px rgba(0, 0, 0, 0.35);
+}
+
+* { box-sizing: border-box; }
+
+html, body {
+  margin: 0;
+  padding: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+body {
+  min-height: 100dvh;
+  min-height: 100vh;
+}
+
+.app {
+  max-width: 640px;
+  margin: 0 auto;
+  padding: max(env(safe-area-inset-top), 20px) 20px max(env(safe-area-inset-bottom), 20px);
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  min-height: 100dvh;
+  min-height: 100vh;
+}
+
+.hd { padding-top: 8px; }
+.hd__date {
+  margin: 0;
+  font-size: 13px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+.hd__title {
+  margin: 4px 0 4px;
+  font-size: 32px;
+  line-height: 1.1;
+  letter-spacing: -0.01em;
+}
+.hd__sub {
+  margin: 0;
+  color: var(--accent);
+  font-weight: 600;
+}
+
+.card {
+  background: var(--surface);
+  border-radius: var(--radius);
+  overflow: hidden;
+  box-shadow: var(--shadow);
+}
+
+.card__link {
+  display: block;
+  color: inherit;
+  text-decoration: none;
+  -webkit-tap-highlight-color: transparent;
+}
+.card__link:active { transform: scale(0.99); }
+.card__link:focus-visible {
+  outline: 3px solid var(--accent);
+  outline-offset: 2px;
+}
+
+.card__media {
+  background: var(--surface-2);
+  aspect-ratio: 400 / 566;
+  width: 100%;
+  display: block;
+}
+.card__media img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.card__body {
+  padding: 18px 20px 22px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.card__title {
+  margin: 0;
+  font-size: 22px;
+  line-height: 1.25;
+}
+.card__cta {
+  margin: 0;
+  color: var(--accent);
+  font-weight: 600;
+  font-size: 15px;
+}
+
+.state {
+  padding: 24px;
+  text-align: center;
+  color: var(--muted);
+  border-radius: var(--radius);
+  background: var(--surface);
+}
+.state--err { color: #ff8888; }
+
+.ft {
+  margin-top: auto;
+  padding-top: 8px;
+  text-align: center;
+  color: var(--muted);
+  font-size: 13px;
+}
+.ft a { color: var(--muted); }
+
+@media (min-width: 520px) {
+  .hd__title { font-size: 38px; }
+  .card__title { font-size: 24px; }
+}

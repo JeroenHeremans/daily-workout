@@ -1,0 +1,9 @@
+{
+  "name": "daily-workout",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "scrape": "node scripts/scrape.js",
+    "serve": "python3 -m http.server 8000"
+  }
+}
