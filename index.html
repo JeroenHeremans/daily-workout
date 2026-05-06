@@ -12,7 +12,14 @@
   <main id="app" class="app">
     <header class="hd">
       <p class="hd__date" id="date"></p>
-      <h1 class="hd__title">Today's Workout</h1>
+      <div class="hd__row">
+        <h1 class="hd__title">Today's Workout</h1>
+        <button id="refresh" class="refresh" type="button" hidden>
+          <span class="refresh__icon" aria-hidden="true">↻</span>
+          <span class="refresh__label">New workout</span>
+          <span id="refresh-count" class="refresh__count"></span>
+        </button>
+      </div>
       <p class="hd__sub" id="region-label"></p>
     </header>
 
@@ -35,6 +42,8 @@
       <p>Workouts from <a href="https://darebee.com/" target="_blank" rel="noopener">darebee.com</a></p>
     </footer>
   </main>
+
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
 
   <script src="app.js" defer></script>
 </body>
