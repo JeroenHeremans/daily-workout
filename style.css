@@ -183,9 +183,8 @@ body {
 .toast {
   position: fixed;
   left: 50%;
-  bottom: max(env(safe-area-inset-bottom), 24px);
   transform: translate(-50%, 12px);
-  background: var(--surface-2);
+  background: var(--accent);
   color: var(--text);
   border: 1px solid rgba(255, 209, 102, 0.25);
   border-radius: 999px;
