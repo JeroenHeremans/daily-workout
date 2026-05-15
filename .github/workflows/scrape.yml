@@ -2,7 +2,7 @@ name: Refresh workouts
 
 on:
   schedule:
-    - cron: "0 6 * * 1"   # Every Monday 06:00 UTC
+    - cron: "0 6 1-7 * 6"   # First Saturday of every month 06:00 UTC
   workflow_dispatch: {}
 
 permissions:
