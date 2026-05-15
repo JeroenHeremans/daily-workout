@@ -7,30 +7,21 @@ import { dirname, resolve } from "node:path";
 import { fileURLToPath } from "node:url";
 import https from "node:https";
 
-const STRENGTH = 55;
+const STRENGTH = "strength";
 const REGIONS = [
-  { key: "full",  id: 32, label: "Full Body" },
-  { key: "abs",   id: 56, label: "Abs" },
-  { key: "lower", id: 37, label: "Lower Body" },
-  { key: "upper", id: 66, label: "Upper Body" },
+  { key: "full", query: "full-body", label: "Full Body" },
+  { key: "abs", query: "abs", label: "Abs" },
+  { key: "lower", query: "lower-body", label: "Lower Body" },
+  { key: "upper", query: "upper-body", label: "Upper Body" },
 ];
 
 const BASE = "https://darebee.com";
+const INDEX_URL = `${BASE}/workouts.json`;
 const UA = "Mozilla/5.0 (compatible; daily-workout-scraper/1.0)";
-const PAGE_SIZE = 15;
-
-function listingUrl(regionId, start) {
-  const params = new URLSearchParams();
-  params.append("t[]", String(STRENGTH));
-  params.append("t[]", String(regionId));
-  params.append("q", "");
-  if (start > 0) params.append("start", String(start));
-  return `${BASE}/workout.html?${params.toString()}`;
-}
 
 function fetchOnce(url, redirectsLeft = 3) {
   return new Promise((ok, fail) => {
-    const req = https.get(url, { headers: { "User-Agent": UA, "Accept": "text/html" } }, res => {
+    const req = https.get(url, { headers: { "User-Agent": UA, "Accept": "application/json,text/plain,*/*" } }, res => {
       if (res.statusCode >= 300 && res.statusCode < 400 && res.headers.location) {
         if (redirectsLeft <= 0) return fail(new Error(`Too many redirects for ${url}`));
         const next = new URL(res.headers.location, url).toString();
@@ -48,11 +39,12 @@ function fetchOnce(url, redirectsLeft = 3) {
   });
 }
 
-async function fetchHtml(url) {
+async function fetchJson(url) {
   let lastErr;
   for (let attempt = 1; attempt <= 4; attempt++) {
     try {
-      return await fetchOnce(url);
+      const body = await fetchOnce(url);
+      return JSON.parse(body);
     } catch (err) {
       lastErr = err;
       const backoff = 500 * 2 ** (attempt - 1);
@@ -63,56 +55,29 @@ async function fetchHtml(url) {
   throw lastErr;
 }
 
-// Returns { items: [{slug, title, image}], lastStart: number }
-function parseListing(html) {
-  const items = [];
-  const seen = new Set();
-  // Title link gives slug + title. The image lives in a separate anchor with the same href.
-  const titleRe = /<a href="\/workouts\/([^"]+)\.html" class="result__title-link"><span class="result__title-text">([^<]+)<\/span><\/a>/g;
-  let m;
-  while ((m = titleRe.exec(html)) !== null) {
-    const slug = m[1];
-    if (seen.has(slug)) continue;
-    seen.add(slug);
-    items.push({ slug, title: m[2].trim(), image: `/images/workouts/${slug}-intro.jpg` });
-  }
-
-  let lastStart = 0;
-  const lastRe = /Go to last page" href="[^"]*?start=(\d+)"/;
-  const lm = html.match(lastRe);
-  if (lm) lastStart = parseInt(lm[1], 10);
-
-  return { items, lastStart };
+function slugFromUrl(u) {
+  return u.replace(/^workouts\//, "").replace(/\.html$/, "");
 }
 
-async function scrapeRegion(region) {
-  console.log(`\n[${region.key}] scraping strength + ${region.label}...`);
-  const first = await fetchHtml(listingUrl(region.id, 0));
-  const { items, lastStart } = parseListing(first);
-  const all = [...items];
-  console.log(`  page 1: ${items.length} items (lastStart=${lastStart})`);
-
-  for (let start = PAGE_SIZE; start <= lastStart; start += PAGE_SIZE) {
-    const html = await fetchHtml(listingUrl(region.id, start));
-    const { items: more } = parseListing(html);
-    all.push(...more);
-    console.log(`  page ${start / PAGE_SIZE + 1}: ${more.length} items (running total ${all.length})`);
-    await new Promise(r => setTimeout(r, 250)); // be polite
-  }
-
-  // De-dupe within region (paginated overlap can happen if listings shift).
-  const dedup = [];
+function selectRegion(index, region) {
+  const items = [];
   const seen = new Set();
-  for (const it of all) {
-    if (seen.has(it.slug)) continue;
-    seen.add(it.slug);
-    dedup.push(it);
+  for (const entry of index) {
+    if (entry.ty !== STRENGTH || entry.f !== region.query) continue;
+    const slug = slugFromUrl(entry.u);
+    if (seen.has(slug)) continue;
+    seen.add(slug);
+    items.push({ slug, title: entry.t, image: `/images/workouts/${slug}-intro.jpg` });
   }
-  console.log(`  total unique: ${dedup.length}`);
-  return dedup;
+  console.log(`[${region.key}] ${region.label}: ${items.length} workouts`);
+  return items;
 }
 
 async function main() {
+  console.log(`Fetching ${INDEX_URL}...`);
+  const index = await fetchJson(INDEX_URL);
+  console.log(`  ${index.length} total workouts in index\n`);
+
   const out = {
     generatedAt: new Date().toISOString(),
     source: BASE,
@@ -120,9 +85,9 @@ async function main() {
   };
   for (const region of REGIONS) {
     out.regions[region.key] = {
-      id: region.id,
       label: region.label,
-      workouts: await scrapeRegion(region),
+      query: region.query,
+      workouts: selectRegion(index, region),
     };
   }
 
@@ -131,9 +96,6 @@ async function main() {
   await mkdir(dirname(target), { recursive: true });
   await writeFile(target, JSON.stringify(out, null, 2) + "\n");
   console.log(`\nWrote ${target}`);
-  for (const [k, v] of Object.entries(out.regions)) {
-    console.log(`  ${k}: ${v.workouts.length} workouts`);
-  }
 }
 
 main().catch(err => {
