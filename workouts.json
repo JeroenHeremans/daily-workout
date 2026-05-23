@@ -1,11 +1,16 @@
 {
-  "generatedAt": "2026-05-16T08:01:45.300Z",
+  "generatedAt": "2026-05-23T08:16:04.426Z",
   "source": "https://darebee.com",
   "regions": {
     "full": {
       "label": "Full Body",
       "query": "full-body",
       "workouts": [
+        {
+          "slug": "i-came-for-the-gains-workout",
+          "title": "I Came for the Gains Workout",
+          "image": "/images/workouts/i-came-for-the-gains-workout-intro.jpg"
+        },
         {
           "slug": "gravity-check-workout",
           "title": "Gravity Check Workout",
