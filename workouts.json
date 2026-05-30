@@ -1,11 +1,16 @@
 {
-  "generatedAt": "2026-05-23T08:16:04.426Z",
+  "generatedAt": "2026-05-30T08:25:43.308Z",
   "source": "https://darebee.com",
   "regions": {
     "full": {
       "label": "Full Body",
       "query": "full-body",
       "workouts": [
+        {
+          "slug": "soft-launch-workout",
+          "title": "Soft Launch Workout",
+          "image": "/images/workouts/soft-launch-workout-intro.jpg"
+        },
         {
           "slug": "i-came-for-the-gains-workout",
           "title": "I Came for the Gains Workout",
@@ -3834,6 +3839,16 @@
       "label": "Upper Body",
       "query": "upper-body",
       "workouts": [
+        {
+          "slug": "circling-back-workout",
+          "title": "Circling Back Workout",
+          "image": "/images/workouts/circling-back-workout-intro.jpg"
+        },
+        {
+          "slug": "tectonic-workout",
+          "title": "Tectonic Workout",
+          "image": "/images/workouts/tectonic-workout-intro.jpg"
+        },
         {
           "slug": "hard-unlock-workout",
           "title": "Hard Unlock Workout",
