@@ -1,11 +1,16 @@
 {
-  "generatedAt": "2026-06-02T10:20:06.374Z",
+  "generatedAt": "2026-06-03T10:54:54.175Z",
   "source": "https://darebee.com",
   "regions": {
     "full": {
       "label": "Full Body",
       "query": "full-body",
       "workouts": [
+        {
+          "slug": "this-was-voluntary-workout",
+          "title": "This Was Voluntary Workout",
+          "image": "/images/workouts/this-was-voluntary-workout-intro.jpg"
+        },
         {
           "slug": "soft-launch-workout",
           "title": "Soft Launch Workout",
