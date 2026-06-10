@@ -164,7 +164,7 @@ body {
   to { transform: rotate(360deg); }
 }
 
-.state--loading {
+.state--loading:not([hidden]) {
   display: flex;
   align-items: center;
   justify-content: center;
