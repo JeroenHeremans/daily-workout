@@ -20,14 +20,23 @@
           <span id="refresh-count" class="refresh__count"></span>
         </button>
       </div>
-      <p class="hd__sub" id="region-label"></p>
+      <div class="hd__sub">
+        <span class="hd__sub-label">Strength ·</span>
+        <span class="region-select__wrap">
+          <select id="region-select" class="region-select" aria-label="Body region"></select>
+          <span class="region-select__chevron" aria-hidden="true">▾</span>
+        </span>
+      </div>
       <div id="toast" class="toast" role="status" aria-live="polite"></div>
     </header>
 
     <section id="card" class="card" hidden>
       <a id="card-link" class="card__link" target="_blank" rel="noopener">
-        <div class="card__media">
+        <div id="card-media" class="card__media">
           <img id="card-img" alt="" loading="eager" decoding="async">
+          <div class="card__loader" aria-hidden="true">
+            <span class="spinner"></span>
+          </div>
         </div>
         <div class="card__body">
           <h2 id="card-title" class="card__title"></h2>
@@ -36,7 +45,10 @@
       </a>
     </section>
 
-    <section id="loading" class="state">Loading…</section>
+    <section id="loading" class="state state--loading">
+      <span class="spinner" aria-hidden="true"></span>
+      <span>Loading…</span>
+    </section>
     <section id="error" class="state state--err" hidden></section>
 
     <footer class="ft">

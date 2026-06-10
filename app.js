@@ -1,6 +1,8 @@
 // Daily Workout — picks one strength workout per day, rotating body regions.
 // Selection is deterministic from the local calendar date; users can re-roll
-// up to MAX_REFRESHES times per day if they don't like today's pick.
+// up to MAX_REFRESHES times per day if they don't like today's pick. Region
+// can also be overridden via a dropdown; switching region is free, but
+// refreshes within a region count toward the same global cap.
 
 const REGION_ORDER = ["full", "abs", "lower", "upper"];
 const DAREBEE = "https://darebee.com";
@@ -19,9 +21,11 @@ function formatDate(date = new Date()) {
   });
 }
 
-function pickWorkout(data, day, offset = 0) {
-  // Rotate region across the four-day cycle, then pick deterministically within the pool.
-  const regionKey = REGION_ORDER[((day % REGION_ORDER.length) + REGION_ORDER.length) % REGION_ORDER.length];
+function defaultRegionForDay(day) {
+  return REGION_ORDER[((day % REGION_ORDER.length) + REGION_ORDER.length) % REGION_ORDER.length];
+}
+
+function pickWorkout(data, day, regionKey, offset) {
   const region = data.regions[regionKey];
   if (!region || region.workouts.length === 0) {
     throw new Error(`No workouts for region ${regionKey}`);
@@ -31,19 +35,32 @@ function pickWorkout(data, day, offset = 0) {
   return { region, workout: region.workouts[idx] };
 }
 
-function loadRefreshState(day) {
+function totalRefreshes(state) {
+  return Object.values(state.offsets).reduce((sum, n) => sum + n, 0);
+}
+
+function freshState(day) {
+  return { day, region: defaultRegionForDay(day), offsets: {} };
+}
+
+function loadState(day) {
   try {
     const raw = localStorage.getItem(STORAGE_KEY);
-    if (!raw) return { day, count: 0 };
+    if (!raw) return freshState(day);
     const parsed = JSON.parse(raw);
-    if (parsed.day !== day) return { day, count: 0 };
-    return { day, count: Math.min(parsed.count ?? 0, MAX_REFRESHES) };
+    if (parsed.day !== day) return freshState(day);
+    const offsets = (parsed.offsets && typeof parsed.offsets === "object") ? parsed.offsets : {};
+    const region = REGION_ORDER.includes(parsed.region) ? parsed.region : defaultRegionForDay(day);
+    const state = { day, region, offsets };
+    // Clamp in case storage was tampered with so the cap can't be exceeded.
+    if (totalRefreshes(state) > MAX_REFRESHES) state.offsets = {};
+    return state;
   } catch {
-    return { day, count: 0 };
+    return freshState(day);
   }
 }
 
-function saveRefreshState(state) {
+function saveState(state) {
   try {
     localStorage.setItem(STORAGE_KEY, JSON.stringify(state));
   } catch {
@@ -67,13 +84,25 @@ function showToast(message) {
 
 function render({ region, workout }) {
   document.getElementById("date").textContent = formatDate();
-  document.getElementById("region-label").textContent = `Strength · ${region.label}`;
   document.getElementById("card-title").textContent = workout.title;
   const link = document.getElementById("card-link");
   link.href = `${DAREBEE}/workouts/${workout.slug}.html`;
+
   const img = document.getElementById("card-img");
-  img.src = `${DAREBEE}${workout.image}`;
+  const mediaEl = document.getElementById("card-media");
+  const newSrc = `${DAREBEE}${workout.image}`;
   img.alt = workout.title;
+
+  if (img.getAttribute("src") !== newSrc) {
+    mediaEl.classList.add("card__media--loading");
+    const done = () => mediaEl.classList.remove("card__media--loading");
+    img.onload = done;
+    img.onerror = done;
+    img.src = newSrc;
+    // If the browser served the image synchronously from cache, drop the loader immediately.
+    if (img.complete && img.naturalWidth > 0) done();
+  }
+
   hide("loading");
   show("card");
 }
@@ -81,13 +110,28 @@ function render({ region, workout }) {
 function renderRefreshButton(state) {
   const btn = document.getElementById("refresh");
   const countEl = document.getElementById("refresh-count");
-  const remaining = MAX_REFRESHES - state.count;
+  const used = totalRefreshes(state);
+  const remaining = MAX_REFRESHES - used;
   countEl.textContent = `${remaining}/${MAX_REFRESHES}`;
   btn.disabled = remaining <= 0;
   btn.hidden = false;
   btn.title = remaining > 0
     ? `Get a new workout (${remaining} of ${MAX_REFRESHES} left today)`
     : "No refreshes left today";
+}
+
+function populateRegionSelect(data, currentRegion) {
+  const select = document.getElementById("region-select");
+  select.innerHTML = "";
+  for (const key of REGION_ORDER) {
+    const region = data.regions[key];
+    if (!region) continue;
+    const opt = document.createElement("option");
+    opt.value = key;
+    opt.textContent = region.label;
+    if (key === currentRegion) opt.selected = true;
+    select.appendChild(opt);
+  }
 }
 
 async function main() {
@@ -106,29 +150,43 @@ async function main() {
   }
 
   const day = localDayIndex();
-  let state = loadRefreshState(day);
+  let state = loadState(day);
 
-  render(pickWorkout(data, day, state.count));
+  populateRegionSelect(data, state.region);
+  render(pickWorkout(data, day, state.region, state.offsets[state.region] ?? 0));
   renderRefreshButton(state);
 
   const btn = document.getElementById("refresh");
   btn.addEventListener("click", () => {
-    if (state.count >= MAX_REFRESHES) return;
-    state = { day, count: state.count + 1 };
-    saveRefreshState(state);
-    render(pickWorkout(data, day, state.count));
+    if (totalRefreshes(state) >= MAX_REFRESHES) return;
+    const nextOffset = (state.offsets[state.region] ?? 0) + 1;
+    state = {
+      ...state,
+      offsets: { ...state.offsets, [state.region]: nextOffset },
+    };
+    saveState(state);
+    render(pickWorkout(data, day, state.region, nextOffset));
     renderRefreshButton(state);
     btn.classList.remove("refresh--spinning");
     // Restart the spin animation by forcing a reflow before re-adding the class.
     void btn.offsetWidth;
     btn.classList.add("refresh--spinning");
 
-    const remaining = MAX_REFRESHES - state.count;
+    const remaining = MAX_REFRESHES - totalRefreshes(state);
     showToast(
       remaining === 0
         ? "No refreshes left today"
         : `${remaining} refresh${remaining === 1 ? "" : "es"} left today`
     );
+  });
+
+  const select = document.getElementById("region-select");
+  select.addEventListener("change", (event) => {
+    const nextRegion = event.target.value;
+    if (!REGION_ORDER.includes(nextRegion)) return;
+    state = { ...state, region: nextRegion };
+    saveState(state);
+    render(pickWorkout(data, day, nextRegion, state.offsets[nextRegion] ?? 0));
   });
 }
 
