@@ -1,11 +1,16 @@
 {
-  "generatedAt": "2026-06-07T08:53:32.461Z",
+  "generatedAt": "2026-06-13T08:55:13.606Z",
   "source": "https://darebee.com",
   "regions": {
     "full": {
       "label": "Full Body",
       "query": "full-body",
       "workouts": [
+        {
+          "slug": "fine-i-will-move-workout",
+          "title": "Fine, I'll Move Workout",
+          "image": "/images/workouts/fine-i-will-move-workout-intro.jpg"
+        },
         {
           "slug": "this-was-voluntary-workout",
           "title": "This Was Voluntary Workout",
