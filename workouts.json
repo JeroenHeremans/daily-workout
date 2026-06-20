@@ -1,11 +1,16 @@
 {
-  "generatedAt": "2026-06-13T08:55:13.606Z",
+  "generatedAt": "2026-06-20T08:52:29.477Z",
   "source": "https://darebee.com",
   "regions": {
     "full": {
       "label": "Full Body",
       "query": "full-body",
       "workouts": [
+        {
+          "slug": "functional-strength-workout",
+          "title": "Functional Strength Workout",
+          "image": "/images/workouts/functional-strength-workout-intro.jpg"
+        },
         {
           "slug": "fine-i-will-move-workout",
           "title": "Fine, I'll Move Workout",
@@ -3849,6 +3854,11 @@
       "label": "Upper Body",
       "query": "upper-body",
       "workouts": [
+        {
+          "slug": "strapless-workout",
+          "title": "Strapless Workout",
+          "image": "/images/workouts/strapless-workout-intro.jpg"
+        },
         {
           "slug": "circling-back-workout",
           "title": "Circling Back Workout",
