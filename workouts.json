@@ -1,11 +1,16 @@
 {
-  "generatedAt": "2026-06-27T08:33:12.773Z",
+  "generatedAt": "2026-07-01T09:41:19.226Z",
   "source": "https://darebee.com",
   "regions": {
     "full": {
       "label": "Full Body",
       "query": "full-body",
       "workouts": [
+        {
+          "slug": "math-checks-out-workout",
+          "title": "The Math Checks Out Workout",
+          "image": "/images/workouts/math-checks-out-workout-intro.jpg"
+        },
         {
           "slug": "40-strong-workout",
           "title": "40 Strong Workout",
@@ -3304,6 +3309,11 @@
       "query": "lower-body",
       "workouts": [
         {
+          "slug": "sovereign-workout",
+          "title": "Sovereign Workout",
+          "image": "/images/workouts/sovereign-workout-intro.jpg"
+        },
+        {
           "slug": "not-dead-yet-workout",
           "title": "Not Dead Yet Workout",
           "image": "/images/workouts/not-dead-yet-workout-intro.jpg"
@@ -3859,6 +3869,11 @@
       "label": "Upper Body",
       "query": "upper-body",
       "workouts": [
+        {
+          "slug": "lean-arms-workout",
+          "title": "Lean Arms Workout",
+          "image": "/images/workouts/lean-arms-workout-intro.jpg"
+        },
         {
           "slug": "its-fine-workout",
           "title": "It's Fine Workout",
