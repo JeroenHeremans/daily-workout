@@ -1,11 +1,16 @@
 {
-  "generatedAt": "2026-07-07T09:36:53.908Z",
+  "generatedAt": "2026-07-11T07:51:31.339Z",
   "source": "https://darebee.com",
   "regions": {
     "full": {
       "label": "Full Body",
       "query": "full-body",
       "workouts": [
+        {
+          "slug": "full-body-tone-workout",
+          "title": "Full Body Tone Workout",
+          "image": "/images/workouts/full-body-tone-workout-intro.jpg"
+        },
         {
           "slug": "math-checks-out-workout",
           "title": "The Math Checks Out Workout",
