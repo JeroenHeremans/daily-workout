@@ -1,11 +1,26 @@
 {
-  "generatedAt": "2026-07-11T07:51:31.339Z",
+  "generatedAt": "2026-07-18T07:46:15.851Z",
   "source": "https://darebee.com",
   "regions": {
     "full": {
       "label": "Full Body",
       "query": "full-body",
       "workouts": [
+        {
+          "slug": "couch-to-fit-plus-workout",
+          "title": "Couch To Fit Plus Workout",
+          "image": "/images/workouts/couch-to-fit-plus-workout-intro.jpg"
+        },
+        {
+          "slug": "couch-to-fit-workout",
+          "title": "Couch To Fit Workout",
+          "image": "/images/workouts/couch-to-fit-workout-intro.jpg"
+        },
+        {
+          "slug": "prime-time-workout",
+          "title": "Prime Time Workout",
+          "image": "/images/workouts/prime-time-workout-intro.jpg"
+        },
         {
           "slug": "full-body-tone-workout",
           "title": "Full Body Tone Workout",
