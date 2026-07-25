@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-18T07:46:15.851Z",
+  "generatedAt": "2026-07-25T08:02:37.963Z",
   "source": "https://darebee.com",
   "regions": {
     "full": {
@@ -2764,7 +2764,7 @@
         },
         {
           "slug": "four-minute-plank-workout",
-          "title": "4-Minute Plank Workout",
+          "title": "Four Minute Plank Workout",
           "image": "/images/workouts/four-minute-plank-workout-intro.jpg"
         },
         {
@@ -2854,7 +2854,7 @@
         },
         {
           "slug": "one-minute-plank-workout",
-          "title": "1-Minute Plank Workout",
+          "title": "One Minute Plank Workout",
           "image": "/images/workouts/one-minute-plank-workout-intro.jpg"
         },
         {
@@ -3332,6 +3332,11 @@
           "slug": "sovereign-workout",
           "title": "Sovereign Workout",
           "image": "/images/workouts/sovereign-workout-intro.jpg"
+        },
+        {
+          "slug": "its-fine-workout",
+          "title": "It's Fine Workout",
+          "image": "/images/workouts/its-fine-workout-intro.jpg"
         },
         {
           "slug": "not-dead-yet-workout",
@@ -3893,11 +3898,6 @@
           "slug": "lean-arms-workout",
           "title": "Lean Arms Workout",
           "image": "/images/workouts/lean-arms-workout-intro.jpg"
-        },
-        {
-          "slug": "its-fine-workout",
-          "title": "It's Fine Workout",
-          "image": "/images/workouts/its-fine-workout-intro.jpg"
         },
         {
           "slug": "strapless-workout",
