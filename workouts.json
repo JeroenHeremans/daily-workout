@@ -1,11 +1,16 @@
 {
-  "generatedAt": "2026-07-25T08:02:37.963Z",
+  "generatedAt": "2026-08-01T08:15:59.496Z",
   "source": "https://darebee.com",
   "regions": {
     "full": {
       "label": "Full Body",
       "query": "full-body",
       "workouts": [
+        {
+          "slug": "onyx-workout",
+          "title": "Onyx Workout",
+          "image": "/images/workouts/onyx-workout-intro.jpg"
+        },
         {
           "slug": "couch-to-fit-plus-workout",
           "title": "Couch To Fit Plus Workout",
@@ -2662,6 +2667,11 @@
       "label": "Abs",
       "query": "abs",
       "workouts": [
+        {
+          "slug": "three-minute-plank-workout",
+          "title": "Three Minute Plank Workout",
+          "image": "/images/workouts/three-minute-plank-workout-intro.jpg"
+        },
         {
           "slug": "deep-core-workout",
           "title": "Deep Core Workout",
