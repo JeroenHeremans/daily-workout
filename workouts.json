@@ -1,11 +1,16 @@
 {
-  "generatedAt": "2026-08-02T08:20:20.419Z",
+  "generatedAt": "2026-08-03T09:38:45.892Z",
   "source": "https://darebee.com",
   "regions": {
     "full": {
       "label": "Full Body",
       "query": "full-body",
       "workouts": [
+        {
+          "slug": "still-here-workout",
+          "title": "Still Here! Workout",
+          "image": "/images/workouts/still-here-workout-intro.jpg"
+        },
         {
           "slug": "onyx-workout",
           "title": "Onyx Workout",
