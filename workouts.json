@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-03T09:38:45.892Z",
+  "generatedAt": "2026-08-04T08:32:11.182Z",
   "source": "https://darebee.com",
   "regions": {
     "full": {
@@ -17,14 +17,14 @@
           "image": "/images/workouts/onyx-workout-intro.jpg"
         },
         {
-          "slug": "couch-to-fit-plus-workout",
-          "title": "Couch To Fit Plus Workout",
-          "image": "/images/workouts/couch-to-fit-plus-workout-intro.jpg"
-        },
-        {
           "slug": "couch-to-fit-workout",
           "title": "Couch To Fit Workout",
           "image": "/images/workouts/couch-to-fit-workout-intro.jpg"
+        },
+        {
+          "slug": "couch-to-fit-plus-workout",
+          "title": "Couch To Fit Plus Workout",
+          "image": "/images/workouts/couch-to-fit-plus-workout-intro.jpg"
         },
         {
           "slug": "prime-time-workout",
@@ -35,6 +35,11 @@
           "slug": "full-body-tone-workout",
           "title": "Full Body Tone Workout",
           "image": "/images/workouts/full-body-tone-workout-intro.jpg"
+        },
+        {
+          "slug": "strength-warmup-workout",
+          "title": "Strength Warmup Workout",
+          "image": "/images/workouts/strength-warmup-workout-intro.jpg"
         },
         {
           "slug": "math-checks-out-workout",
@@ -1867,9 +1872,9 @@
           "image": "/images/workouts/empress-workout-intro.jpg"
         },
         {
-          "slug": "shaken-not-stirred-workout",
-          "title": "Shaken, Not Stirred Workout",
-          "image": "/images/workouts/shaken-not-stirred-workout-intro.jpg"
+          "slug": "dragon-knight-workout",
+          "title": "Dragon Knight Workout",
+          "image": "/images/workouts/dragon-knight-workout-intro.jpg"
         },
         {
           "slug": "gainer-workout",
@@ -1877,9 +1882,9 @@
           "image": "/images/workouts/gainer-workout-intro.jpg"
         },
         {
-          "slug": "dragon-knight-workout",
-          "title": "Dragon Knight Workout",
-          "image": "/images/workouts/dragon-knight-workout-intro.jpg"
+          "slug": "shaken-not-stirred-workout",
+          "title": "Shaken, Not Stirred Workout",
+          "image": "/images/workouts/shaken-not-stirred-workout-intro.jpg"
         },
         {
           "slug": "buttercup-workout",
@@ -1897,6 +1902,11 @@
           "image": "/images/workouts/bouncer-workout-intro.jpg"
         },
         {
+          "slug": "apollo-workout",
+          "title": "Apollo Workout",
+          "image": "/images/workouts/apollo-workout-intro.jpg"
+        },
+        {
           "slug": "gladiolus-workout",
           "title": "Gladiolus Workout",
           "image": "/images/workouts/gladiolus-workout-intro.jpg"
@@ -1905,11 +1915,6 @@
           "slug": "daily-fix-workout",
           "title": "Daily Fix Workout",
           "image": "/images/workouts/daily-fix-workout-intro.jpg"
-        },
-        {
-          "slug": "apollo-workout",
-          "title": "Apollo Workout",
-          "image": "/images/workouts/apollo-workout-intro.jpg"
         },
         {
           "slug": "demigod-workout",
@@ -1922,6 +1927,11 @@
           "image": "/images/workouts/giant-workout-intro.jpg"
         },
         {
+          "slug": "andromeda-workout",
+          "title": "Andromeda Workout",
+          "image": "/images/workouts/andromeda-workout-intro.jpg"
+        },
+        {
           "slug": "power-crawl-workout",
           "title": "Power Crawl Workout",
           "image": "/images/workouts/power-crawl-workout-intro.jpg"
@@ -1930,11 +1940,6 @@
           "slug": "hourglass-workout",
           "title": "Hourglass Workout",
           "image": "/images/workouts/hourglass-workout-intro.jpg"
-        },
-        {
-          "slug": "andromeda-workout",
-          "title": "Andromeda Workout",
-          "image": "/images/workouts/andromeda-workout-intro.jpg"
         },
         {
           "slug": "zeus-workout",
@@ -1967,49 +1972,14 @@
           "image": "/images/workouts/warlord-workout-intro.jpg"
         },
         {
-          "slug": "super-charge-workout",
-          "title": "Super Charge Workout",
-          "image": "/images/workouts/super-charge-workout-intro.jpg"
-        },
-        {
-          "slug": "wall-workout",
-          "title": "The Wall Workout",
-          "image": "/images/workouts/wall-workout-intro.jpg"
-        },
-        {
-          "slug": "superset-workout",
-          "title": "Superset Workout",
-          "image": "/images/workouts/superset-workout-intro.jpg"
-        },
-        {
-          "slug": "power-switch-workout",
-          "title": "Power Switch Workout",
-          "image": "/images/workouts/power-switch-workout-intro.jpg"
-        },
-        {
-          "slug": "office-circuit-workout",
-          "title": "Office Circuit",
-          "image": "/images/workouts/office-circuit-workout-intro.jpg"
-        },
-        {
-          "slug": "hero-for-hire-workout",
-          "title": "Hero for Hire Workout",
-          "image": "/images/workouts/hero-for-hire-workout-intro.jpg"
-        },
-        {
-          "slug": "full-body-works-workout",
-          "title": "Full Body Works",
-          "image": "/images/workouts/full-body-works-workout-intro.jpg"
-        },
-        {
-          "slug": "fight-ready-workout",
-          "title": "Fight Ready Workout",
-          "image": "/images/workouts/fight-ready-workout-intro.jpg"
-        },
-        {
           "slug": "power-hold-chair-workout",
           "title": "Power Hold Workout",
           "image": "/images/workouts/power-hold-chair-workout-intro.jpg"
+        },
+        {
+          "slug": "gridlock-workout",
+          "title": "Gridlock Workout",
+          "image": "/images/workouts/gridlock-workout-intro.jpg"
         },
         {
           "slug": "docked-workout",
@@ -2017,19 +1987,9 @@
           "image": "/images/workouts/docked-workout-intro.jpg"
         },
         {
-          "slug": "ctrl-alt-shift-workout",
-          "title": "Ctrl + Alt + Shift Workout",
-          "image": "/images/workouts/ctrl-alt-shift-workout-intro.jpg"
-        },
-        {
           "slug": "bag-and-tag-workout",
           "title": "Bag And Tag Workout",
           "image": "/images/workouts/bag-and-tag-workout-intro.jpg"
-        },
-        {
-          "slug": "perseus-workout",
-          "title": "Perseus Workout",
-          "image": "/images/workouts/perseus-workout-intro.jpg"
         },
         {
           "slug": "ogre-workout",
@@ -2037,9 +1997,9 @@
           "image": "/images/workouts/ogre-workout-intro.jpg"
         },
         {
-          "slug": "gridlock-workout",
-          "title": "Gridlock Workout",
-          "image": "/images/workouts/gridlock-workout-intro.jpg"
+          "slug": "perseus-workout",
+          "title": "Perseus Workout",
+          "image": "/images/workouts/perseus-workout-intro.jpg"
         },
         {
           "slug": "the-bandit-workout",
@@ -2082,19 +2042,29 @@
           "image": "/images/workouts/colossus-workout-intro.jpg"
         },
         {
+          "slug": "ctrl-alt-shift-workout",
+          "title": "Ctrl + Alt + Shift Workout",
+          "image": "/images/workouts/ctrl-alt-shift-workout-intro.jpg"
+        },
+        {
+          "slug": "hero-for-hire-workout",
+          "title": "Hero for Hire Workout",
+          "image": "/images/workouts/hero-for-hire-workout-intro.jpg"
+        },
+        {
           "slug": "obliterator-workout",
           "title": "The Obliterator Workout",
           "image": "/images/workouts/obliterator-workout-intro.jpg"
         },
         {
-          "slug": "fullbody-render-workout",
-          "title": "Fullbody Render Workout",
-          "image": "/images/workouts/fullbody-render-workout-intro.jpg"
-        },
-        {
           "slug": "fullbody-render-plus-workout",
           "title": "Fullbody Render Plus",
           "image": "/images/workouts/fullbody-render-plus-workout-intro.jpg"
+        },
+        {
+          "slug": "fullbody-render-workout",
+          "title": "Fullbody Render Workout",
+          "image": "/images/workouts/fullbody-render-workout-intro.jpg"
         },
         {
           "slug": "morrigan-workout",
@@ -2112,14 +2082,14 @@
           "image": "/images/workouts/night-shift-workout-intro.jpg"
         },
         {
-          "slug": "ragnarok-workout",
-          "title": "Ragnarok Workout",
-          "image": "/images/workouts/ragnarok-workout-intro.jpg"
-        },
-        {
           "slug": "commander-workout",
           "title": "The Commander Workout",
           "image": "/images/workouts/commander-workout-intro.jpg"
+        },
+        {
+          "slug": "ragnarok-workout",
+          "title": "Ragnarok Workout",
+          "image": "/images/workouts/ragnarok-workout-intro.jpg"
         },
         {
           "slug": "deadlock-workout",
@@ -2137,9 +2107,9 @@
           "image": "/images/workouts/conqueror-workout-intro.jpg"
         },
         {
-          "slug": "dirty-30-workout",
-          "title": "Dirty 30 Workout",
-          "image": "/images/workouts/dirty-30-workout-intro.jpg"
+          "slug": "shredder-plus-workout",
+          "title": "Shredder Plus Workout",
+          "image": "/images/workouts/shredder-plus-workout-intro.jpg"
         },
         {
           "slug": "shredder-workout",
@@ -2147,19 +2117,19 @@
           "image": "/images/workouts/shredder-workout-intro.jpg"
         },
         {
-          "slug": "shredder-plus-workout",
-          "title": "Shredder Plus Workout",
-          "image": "/images/workouts/shredder-plus-workout-intro.jpg"
-        },
-        {
-          "slug": "armory-workout",
-          "title": "Armory Workout",
-          "image": "/images/workouts/armory-workout-intro.jpg"
+          "slug": "dirty-30-workout",
+          "title": "Dirty 30 Workout",
+          "image": "/images/workouts/dirty-30-workout-intro.jpg"
         },
         {
           "slug": "armory-plus-workout",
           "title": "Armory Plus Workout",
           "image": "/images/workouts/armory-plus-workout-intro.jpg"
+        },
+        {
+          "slug": "armory-workout",
+          "title": "Armory Workout",
+          "image": "/images/workouts/armory-workout-intro.jpg"
         },
         {
           "slug": "no-capes-workout",
@@ -2172,14 +2142,14 @@
           "image": "/images/workouts/initiation-workout-intro.jpg"
         },
         {
-          "slug": "hunter-workout",
-          "title": "Hunter Workout",
-          "image": "/images/workouts/hunter-workout-intro.jpg"
-        },
-        {
           "slug": "hunter-plus-workout",
           "title": "Hunter Plus Workout",
           "image": "/images/workouts/hunter-plus-workout-intro.jpg"
+        },
+        {
+          "slug": "hunter-workout",
+          "title": "Hunter Workout",
+          "image": "/images/workouts/hunter-workout-intro.jpg"
         },
         {
           "slug": "recruit-workout",
@@ -2187,9 +2157,9 @@
           "image": "/images/workouts/recruit-workout-intro.jpg"
         },
         {
-          "slug": "sentinel-workout",
-          "title": "Sentinel Workout",
-          "image": "/images/workouts/sentinel-workout-intro.jpg"
+          "slug": "fight-ready-workout",
+          "title": "Fight Ready Workout",
+          "image": "/images/workouts/fight-ready-workout-intro.jpg"
         },
         {
           "slug": "sentinel-plus-workout",
@@ -2197,14 +2167,19 @@
           "image": "/images/workouts/sentinel-plus-workout-intro.jpg"
         },
         {
-          "slug": "endgame-workout",
-          "title": "Endgame Workout",
-          "image": "/images/workouts/endgame-workout-intro.jpg"
+          "slug": "sentinel-workout",
+          "title": "Sentinel Workout",
+          "image": "/images/workouts/sentinel-workout-intro.jpg"
         },
         {
           "slug": "endgame-plus-workout",
           "title": "Endgame Plus Workout",
           "image": "/images/workouts/endgame-plus-workout-intro.jpg"
+        },
+        {
+          "slug": "endgame-workout",
+          "title": "Endgame Workout",
+          "image": "/images/workouts/endgame-workout-intro.jpg"
         },
         {
           "slug": "postal-workout",
@@ -2217,19 +2192,14 @@
           "image": "/images/workouts/active-stroll-workout-intro.jpg"
         },
         {
-          "slug": "enemy-lines-plus-workout",
-          "title": "Enemy Lines Plus Workout",
-          "image": "/images/workouts/enemy-lines-plus-workout-intro.jpg"
-        },
-        {
           "slug": "enemy-lines-workout",
           "title": "Enemy Lines Workout",
           "image": "/images/workouts/enemy-lines-workout-intro.jpg"
         },
         {
-          "slug": "berserker-workout",
-          "title": "Berserker Workout",
-          "image": "/images/workouts/berserker-workout-intro.jpg"
+          "slug": "enemy-lines-plus-workout",
+          "title": "Enemy Lines Plus Workout",
+          "image": "/images/workouts/enemy-lines-plus-workout-intro.jpg"
         },
         {
           "slug": "berserker-plus-workout",
@@ -2237,9 +2207,9 @@
           "image": "/images/workouts/berserker-plus-workout-intro.jpg"
         },
         {
-          "slug": "body-patch-workout",
-          "title": "Body Patch Workout",
-          "image": "/images/workouts/body-patch-workout-intro.jpg"
+          "slug": "berserker-workout",
+          "title": "Berserker Workout",
+          "image": "/images/workouts/berserker-workout-intro.jpg"
         },
         {
           "slug": "body-patch-plus-workout",
@@ -2247,14 +2217,19 @@
           "image": "/images/workouts/body-patch-plus-workout-intro.jpg"
         },
         {
-          "slug": "iron-maiden-workout",
-          "title": "Iron Maiden Workout",
-          "image": "/images/workouts/iron-maiden-workout-intro.jpg"
+          "slug": "body-patch-workout",
+          "title": "Body Patch Workout",
+          "image": "/images/workouts/body-patch-workout-intro.jpg"
         },
         {
           "slug": "kraken-workout",
           "title": "Kraken Workout",
           "image": "/images/workouts/kraken-workout-intro.jpg"
+        },
+        {
+          "slug": "iron-maiden-workout",
+          "title": "Iron Maiden Workout",
+          "image": "/images/workouts/iron-maiden-workout-intro.jpg"
         },
         {
           "slug": "mason-plus-workout",
@@ -2265,6 +2240,11 @@
           "slug": "mason-workout",
           "title": "Mason Workout",
           "image": "/images/workouts/mason-workout-intro.jpg"
+        },
+        {
+          "slug": "full-body-works-workout",
+          "title": "Full Body Works",
+          "image": "/images/workouts/full-body-works-workout-intro.jpg"
         },
         {
           "slug": "king-of-the-hill-workout",
@@ -2362,9 +2342,19 @@
           "image": "/images/workouts/beast-workout-intro.jpg"
         },
         {
+          "slug": "superset-workout",
+          "title": "Superset Workout",
+          "image": "/images/workouts/superset-workout-intro.jpg"
+        },
+        {
           "slug": "coffee-break-workout",
           "title": "Coffee Break Workout",
           "image": "/images/workouts/coffee-break-workout-intro.jpg"
+        },
+        {
+          "slug": "power-switch-workout",
+          "title": "Power Switch Workout",
+          "image": "/images/workouts/power-switch-workout-intro.jpg"
         },
         {
           "slug": "gravity-control-workout",
@@ -2417,14 +2407,19 @@
           "image": "/images/workouts/black-panther-workout-intro.jpg"
         },
         {
+          "slug": "nights-watch-workout",
+          "title": "Night's Watch Workout",
+          "image": "/images/workouts/nights-watch-workout-intro.jpg"
+        },
+        {
           "slug": "juggernaut-workout",
           "title": "Juggernaut Workout",
           "image": "/images/workouts/juggernaut-workout-intro.jpg"
         },
         {
-          "slug": "nights-watch-workout",
-          "title": "Night's Watch Workout",
-          "image": "/images/workouts/nights-watch-workout-intro.jpg"
+          "slug": "super-charge-workout",
+          "title": "Super Charge Workout",
+          "image": "/images/workouts/super-charge-workout-intro.jpg"
         },
         {
           "slug": "bond-workout",
@@ -2432,14 +2427,14 @@
           "image": "/images/workouts/bond-workout-intro.jpg"
         },
         {
-          "slug": "bodyguard-workout",
-          "title": "Bodyguard Workout",
-          "image": "/images/workouts/bodyguard-workout-intro.jpg"
-        },
-        {
           "slug": "beowulf-workout",
           "title": "Beowulf Workout",
           "image": "/images/workouts/beowulf-workout-intro.jpg"
+        },
+        {
+          "slug": "bodyguard-workout",
+          "title": "Bodyguard Workout",
+          "image": "/images/workouts/bodyguard-workout-intro.jpg"
         },
         {
           "slug": "pandora-workout",
@@ -2462,9 +2457,19 @@
           "image": "/images/workouts/guardian-workout-intro.jpg"
         },
         {
+          "slug": "roll-with-it-workout",
+          "title": "Just Roll With It Workout",
+          "image": "/images/workouts/roll-with-it-workout-intro.jpg"
+        },
+        {
           "slug": "army-of-two-workout",
           "title": "Army of Two Workout",
           "image": "/images/workouts/army-of-two-workout-intro.jpg"
+        },
+        {
+          "slug": "titan-workout",
+          "title": "Titan Workout",
+          "image": "/images/workouts/titan-workout-intro.jpg"
         },
         {
           "slug": "shedevil-workout",
@@ -2477,16 +2482,6 @@
           "image": "/images/workouts/guts-workout-intro.jpg"
         },
         {
-          "slug": "titan-workout",
-          "title": "Titan Workout",
-          "image": "/images/workouts/titan-workout-intro.jpg"
-        },
-        {
-          "slug": "roll-with-it-workout",
-          "title": "Just Roll With It Workout",
-          "image": "/images/workouts/roll-with-it-workout-intro.jpg"
-        },
-        {
           "slug": "mockingjay-workout",
           "title": "Mockingjay Workout",
           "image": "/images/workouts/mockingjay-workout-intro.jpg"
@@ -2495,6 +2490,16 @@
           "slug": "master-chief-workout",
           "title": "Master Chief Workout",
           "image": "/images/workouts/master-chief-workout-intro.jpg"
+        },
+        {
+          "slug": "office-circuit-workout",
+          "title": "Office Circuit",
+          "image": "/images/workouts/office-circuit-workout-intro.jpg"
+        },
+        {
+          "slug": "wall-workout",
+          "title": "The Wall Workout",
+          "image": "/images/workouts/wall-workout-intro.jpg"
         },
         {
           "slug": "push-squat-repeat-workout",
@@ -2607,19 +2612,9 @@
           "image": "/images/workouts/thor-workout-intro.jpg"
         },
         {
-          "slug": "uncharted-workout",
-          "title": "Uncharted Workout",
-          "image": "/images/workouts/uncharted-workout-intro.jpg"
-        },
-        {
           "slug": "tiger-tiger-workout",
           "title": "Tiger, Tiger Workout",
           "image": "/images/workouts/tiger-tiger-workout-intro.jpg"
-        },
-        {
-          "slug": "spartacus-workout",
-          "title": "Spartacus Workout",
-          "image": "/images/workouts/spartacus-workout-intro.jpg"
         },
         {
           "slug": "office-workout",
@@ -2642,9 +2637,19 @@
           "image": "/images/workouts/highlander-workout-intro.jpg"
         },
         {
+          "slug": "uncharted-workout",
+          "title": "Uncharted Workout",
+          "image": "/images/workouts/uncharted-workout-intro.jpg"
+        },
+        {
           "slug": "epic-workout",
           "title": "Epic Quest Workout",
           "image": "/images/workouts/epic-workout-intro.jpg"
+        },
+        {
+          "slug": "spartacus-workout",
+          "title": "Spartacus Workout",
+          "image": "/images/workouts/spartacus-workout-intro.jpg"
         },
         {
           "slug": "hercules-workout",
@@ -2672,6 +2677,16 @@
       "label": "Abs",
       "query": "abs",
       "workouts": [
+        {
+          "slug": "overload-abs-workout",
+          "title": "Overload Abs Workout",
+          "image": "/images/workouts/overload-abs-workout-intro.jpg"
+        },
+        {
+          "slug": "hover-workout",
+          "title": "Hover Workout",
+          "image": "/images/workouts/hover-workout-intro.jpg"
+        },
         {
           "slug": "three-minute-plank-workout",
           "title": "Three Minute Plank Workout",
@@ -3113,24 +3128,24 @@
           "image": "/images/workouts/abs-fold-workout-intro.jpg"
         },
         {
-          "slug": "core-builder-workout",
-          "title": "Core Builder Workout",
-          "image": "/images/workouts/core-builder-workout-intro.jpg"
-        },
-        {
           "slug": "planche-prep-workout",
           "title": "Planche Prep Workout",
           "image": "/images/workouts/planche-prep-workout-intro.jpg"
         },
         {
-          "slug": "daily-abs-workout",
-          "title": "Daily Abs Workout",
-          "image": "/images/workouts/daily-abs-workout-intro.jpg"
+          "slug": "core-builder-workout",
+          "title": "Core Builder Workout",
+          "image": "/images/workouts/core-builder-workout-intro.jpg"
         },
         {
           "slug": "abs-pro-workout",
           "title": "Abs Pro Workout",
           "image": "/images/workouts/abs-pro-workout-intro.jpg"
+        },
+        {
+          "slug": "daily-abs-workout",
+          "title": "Daily Abs Workout",
+          "image": "/images/workouts/daily-abs-workout-intro.jpg"
         },
         {
           "slug": "core-crusher-workout",
@@ -3158,19 +3173,14 @@
           "image": "/images/workouts/active-plank-workout-intro.jpg"
         },
         {
-          "slug": "master-plank-workout",
-          "title": "Master Plank Workout",
-          "image": "/images/workouts/master-plank-workout-intro.jpg"
-        },
-        {
           "slug": "origami-abs-workout",
           "title": "Origami Abs Workout",
           "image": "/images/workouts/origami-abs-workout-intro.jpg"
         },
         {
-          "slug": "abs-and-core-workout",
-          "title": "Abs & Core Workout",
-          "image": "/images/workouts/abs-and-core-workout-intro.jpg"
+          "slug": "master-plank-workout",
+          "title": "Master Plank Workout",
+          "image": "/images/workouts/master-plank-workout-intro.jpg"
         },
         {
           "slug": "killer-core-workout",
@@ -3181,6 +3191,11 @@
           "slug": "carver-workout",
           "title": "Carver Workout",
           "image": "/images/workouts/carver-workout-intro.jpg"
+        },
+        {
+          "slug": "abs-and-core-workout",
+          "title": "Abs & Core Workout",
+          "image": "/images/workouts/abs-and-core-workout-intro.jpg"
         },
         {
           "slug": "ab-mod-workout",
@@ -3263,14 +3278,14 @@
           "image": "/images/workouts/abs-unlocked-workout-intro.jpg"
         },
         {
-          "slug": "masterpack-workout",
-          "title": "Masterpack Workout",
-          "image": "/images/workouts/masterpack-workout-intro.jpg"
-        },
-        {
           "slug": "abs-defined-workout",
           "title": "Abs Defined Workout",
           "image": "/images/workouts/abs-defined-workout-intro.jpg"
+        },
+        {
+          "slug": "masterpack-workout",
+          "title": "Masterpack Workout",
+          "image": "/images/workouts/masterpack-workout-intro.jpg"
         },
         {
           "slug": "superplank-workout",
@@ -3303,14 +3318,14 @@
           "image": "/images/workouts/hard-core-workout-intro.jpg"
         },
         {
-          "slug": "armor-abs-workout",
-          "title": "Armor Abs Workout",
-          "image": "/images/workouts/armor-abs-workout-intro.jpg"
-        },
-        {
           "slug": "core-fusion-workout",
           "title": "Core Fusion Workout",
           "image": "/images/workouts/core-fusion-workout-intro.jpg"
+        },
+        {
+          "slug": "armor-abs-workout",
+          "title": "Armor Abs Workout",
+          "image": "/images/workouts/armor-abs-workout-intro.jpg"
         },
         {
           "slug": "codex-workout",
@@ -3569,6 +3584,11 @@
           "image": "/images/workouts/glutes-over-quads-workout-intro.jpg"
         },
         {
+          "slug": "still-standing-workout",
+          "title": "Still Standing Workout",
+          "image": "/images/workouts/still-standing-workout-intro.jpg"
+        },
+        {
           "slug": "winx-workout",
           "title": "Winx Workout",
           "image": "/images/workouts/winx-workout-intro.jpg"
@@ -3577,11 +3597,6 @@
           "slug": "demeter-workout",
           "title": "Demeter Workout",
           "image": "/images/workouts/demeter-workout-intro.jpg"
-        },
-        {
-          "slug": "still-standing-workout",
-          "title": "Still Standing Workout",
-          "image": "/images/workouts/still-standing-workout-intro.jpg"
         },
         {
           "slug": "great-choice-workout",
@@ -3784,14 +3799,14 @@
           "image": "/images/workouts/leg-shred-workout-intro.jpg"
         },
         {
-          "slug": "killer-butt-workout",
-          "title": "Killer Butt Workout",
-          "image": "/images/workouts/killer-butt-workout-intro.jpg"
-        },
-        {
           "slug": "bedtime-glutes-workout",
           "title": "Bedtime Glutes Workout",
           "image": "/images/workouts/bedtime-glutes-workout-intro.jpg"
+        },
+        {
+          "slug": "killer-butt-workout",
+          "title": "Killer Butt Workout",
+          "image": "/images/workouts/killer-butt-workout-intro.jpg"
         },
         {
           "slug": "super-squat-workout",
@@ -3809,39 +3824,19 @@
           "image": "/images/workouts/glutes-quads-hamstrings-calves-workout-intro.jpg"
         },
         {
-          "slug": "time-out-workout",
-          "title": "Time Out Workout",
-          "image": "/images/workouts/time-out-workout-intro.jpg"
-        },
-        {
           "slug": "power-squat-workout",
           "title": "Power Squat Workout",
           "image": "/images/workouts/power-squat-workout-intro.jpg"
         },
         {
-          "slug": "lower-body-works-workout",
-          "title": "Lower Body Works Workout",
-          "image": "/images/workouts/lower-body-works-workout-intro.jpg"
-        },
-        {
-          "slug": "legs-and-core-workout",
-          "title": "Legs & Core Workout",
-          "image": "/images/workouts/legs-and-core-workout-intro.jpg"
-        },
-        {
-          "slug": "glutes-and-quads-workout",
-          "title": "Glutes & Quads Workout",
-          "image": "/images/workouts/glutes-and-quads-workout-intro.jpg"
+          "slug": "brute-legday-workout",
+          "title": "Brute: Leg Day Workout",
+          "image": "/images/workouts/brute-legday-workout-intro.jpg"
         },
         {
           "slug": "vanguard-workout",
           "title": "Vanguard Workout",
           "image": "/images/workouts/vanguard-workout-intro.jpg"
-        },
-        {
-          "slug": "brute-legday-workout",
-          "title": "Brute: Leg Day Workout",
-          "image": "/images/workouts/brute-legday-workout-intro.jpg"
         },
         {
           "slug": "inner-thighs-workout",
@@ -3854,9 +3849,24 @@
           "image": "/images/workouts/ps-workout-intro.jpg"
         },
         {
+          "slug": "time-out-workout",
+          "title": "Time Out Workout",
+          "image": "/images/workouts/time-out-workout-intro.jpg"
+        },
+        {
           "slug": "bottom-line-workout",
           "title": "Bottom Line Workout",
           "image": "/images/workouts/bottom-line-workout-intro.jpg"
+        },
+        {
+          "slug": "legs-and-core-workout",
+          "title": "Legs & Core Workout",
+          "image": "/images/workouts/legs-and-core-workout-intro.jpg"
+        },
+        {
+          "slug": "maximus-workout",
+          "title": "Maximus Workout",
+          "image": "/images/workouts/maximus-workout-intro.jpg"
         },
         {
           "slug": "legs-of-steel-workout",
@@ -3874,14 +3884,19 @@
           "image": "/images/workouts/ballet-workout-intro.jpg"
         },
         {
+          "slug": "lower-body-works-workout",
+          "title": "Lower Body Works Workout",
+          "image": "/images/workouts/lower-body-works-workout-intro.jpg"
+        },
+        {
           "slug": "davinci-workout",
           "title": "DaVinci Workout",
           "image": "/images/workouts/davinci-workout-intro.jpg"
         },
         {
-          "slug": "maximus-workout",
-          "title": "Maximus Workout",
-          "image": "/images/workouts/maximus-workout-intro.jpg"
+          "slug": "glutes-and-quads-workout",
+          "title": "Glutes & Quads Workout",
+          "image": "/images/workouts/glutes-and-quads-workout-intro.jpg"
         },
         {
           "slug": "six-oclock-workout",
@@ -3975,14 +3990,14 @@
           "image": "/images/workouts/gravity-shift-workout-intro.jpg"
         },
         {
-          "slug": "bicep-builder-no-equipment-workout",
-          "title": "No-Equipment Bicep Builder Workout",
-          "image": "/images/workouts/bicep-builder-no-equipment-workout-intro.jpg"
-        },
-        {
           "slug": "bicep-builder-workout",
           "title": "Bicep Builder Workout",
           "image": "/images/workouts/bicep-builder-workout-intro.jpg"
+        },
+        {
+          "slug": "bicep-builder-no-equipment-workout",
+          "title": "No-Equipment Bicep Builder Workout",
+          "image": "/images/workouts/bicep-builder-no-equipment-workout-intro.jpg"
         },
         {
           "slug": "lvl999-pushup-workout",
@@ -4815,14 +4830,14 @@
           "image": "/images/workouts/kitten-workout-intro.jpg"
         },
         {
-          "slug": "chest-and-back-workout",
-          "title": "Chest & Back Workout",
-          "image": "/images/workouts/chest-and-back-workout-intro.jpg"
-        },
-        {
           "slug": "arm-day-workout",
           "title": "Arm Day Workout",
           "image": "/images/workouts/arm-day-workout-intro.jpg"
+        },
+        {
+          "slug": "chest-and-back-workout",
+          "title": "Chest & Back Workout",
+          "image": "/images/workouts/chest-and-back-workout-intro.jpg"
         },
         {
           "slug": "front-lever-prep-workout",
@@ -4885,79 +4900,14 @@
           "image": "/images/workouts/push-and-pull-express-workout-intro.jpg"
         },
         {
-          "slug": "upperbody-forge-workout",
-          "title": "Upperbody Forge Workout",
-          "image": "/images/workouts/upperbody-forge-workout-intro.jpg"
-        },
-        {
           "slug": "push-and-pull-workout",
           "title": "Push & Pull Workout",
           "image": "/images/workouts/push-and-pull-workout-intro.jpg"
         },
         {
-          "slug": "upperbody-mobility-workout",
-          "title": "Upperbody Mobility Workout",
-          "image": "/images/workouts/upperbody-mobility-workout-intro.jpg"
-        },
-        {
-          "slug": "shoulder-arms-workout",
-          "title": "Shoulder Work",
-          "image": "/images/workouts/shoulder-arms-workout-intro.jpg"
-        },
-        {
-          "slug": "office-pushups2-workout",
-          "title": "Office Push-Ups II Workout",
-          "image": "/images/workouts/office-pushups2-workout-intro.jpg"
-        },
-        {
-          "slug": "office-pushups-workout",
-          "title": "Office Push-Ups Workout",
-          "image": "/images/workouts/office-pushups-workout-intro.jpg"
-        },
-        {
-          "slug": "forearms-and-triceps-light-workout",
-          "title": "Forearms & Triceps Workout",
-          "image": "/images/workouts/forearms-and-triceps-light-workout-intro.jpg"
-        },
-        {
-          "slug": "chest-and-shoulders-light-workout",
-          "title": "Chest & Shoulders Workout",
-          "image": "/images/workouts/chest-and-shoulders-light-workout-intro.jpg"
-        },
-        {
-          "slug": "chest-and-back-light-workout",
-          "title": "Chest & Back Workout",
-          "image": "/images/workouts/chest-and-back-light-workout-intro.jpg"
-        },
-        {
-          "slug": "bicep-and-triceps-light-workout",
-          "title": "Biceps & Triceps Workout",
-          "image": "/images/workouts/bicep-and-triceps-light-workout-intro.jpg"
-        },
-        {
-          "slug": "arms-360-workout",
-          "title": "Arms 360 Workout",
-          "image": "/images/workouts/arms-360-workout-intro.jpg"
-        },
-        {
-          "slug": "stapler-workout",
-          "title": "Stapler Workout",
-          "image": "/images/workouts/stapler-workout-intro.jpg"
-        },
-        {
-          "slug": "seated-boxer-workout",
-          "title": "Seated Boxer Workout",
-          "image": "/images/workouts/seated-boxer-workout-intro.jpg"
-        },
-        {
-          "slug": "rainmaker-workout",
-          "title": "Rainmaker Workout",
-          "image": "/images/workouts/rainmaker-workout-intro.jpg"
-        },
-        {
-          "slug": "catch-and-release-workout",
-          "title": "Catch & Release Workout",
-          "image": "/images/workouts/catch-and-release-workout-intro.jpg"
+          "slug": "upperbody-forge-workout",
+          "title": "Upperbody Forge Workout",
+          "image": "/images/workouts/upperbody-forge-workout-intro.jpg"
         },
         {
           "slug": "power-punch-workout",
@@ -4970,19 +4920,14 @@
           "image": "/images/workouts/butcher-workout-intro.jpg"
         },
         {
+          "slug": "barbarian-workout",
+          "title": "Barbarian Workout",
+          "image": "/images/workouts/barbarian-workout-intro.jpg"
+        },
+        {
           "slug": "4x4-workout",
           "title": "4x4 Workout",
           "image": "/images/workouts/4x4-workout-intro.jpg"
-        },
-        {
-          "slug": "tempered-steel-workout",
-          "title": "Tempered Steel Workout",
-          "image": "/images/workouts/tempered-steel-workout-intro.jpg"
-        },
-        {
-          "slug": "shield-workout",
-          "title": "Shield Workout",
-          "image": "/images/workouts/shield-workout-intro.jpg"
         },
         {
           "slug": "hardback-workout",
@@ -4990,9 +4935,24 @@
           "image": "/images/workouts/hardback-workout-intro.jpg"
         },
         {
-          "slug": "barbarian-workout",
-          "title": "Barbarian Workout",
-          "image": "/images/workouts/barbarian-workout-intro.jpg"
+          "slug": "shield-workout",
+          "title": "Shield Workout",
+          "image": "/images/workouts/shield-workout-intro.jpg"
+        },
+        {
+          "slug": "tempered-steel-workout",
+          "title": "Tempered Steel Workout",
+          "image": "/images/workouts/tempered-steel-workout-intro.jpg"
+        },
+        {
+          "slug": "seated-boxer-workout",
+          "title": "Seated Boxer Workout",
+          "image": "/images/workouts/seated-boxer-workout-intro.jpg"
+        },
+        {
+          "slug": "bicep-and-triceps-light-workout",
+          "title": "Biceps & Triceps Workout",
+          "image": "/images/workouts/bicep-and-triceps-light-workout-intro.jpg"
         },
         {
           "slug": "one-arm-pullup-prep-workout",
@@ -5000,14 +4960,14 @@
           "image": "/images/workouts/one-arm-pullup-prep-workout-intro.jpg"
         },
         {
-          "slug": "handstand-prep-workout",
-          "title": "Handstand Prep Workout",
-          "image": "/images/workouts/handstand-prep-workout-intro.jpg"
-        },
-        {
           "slug": "brute-arms-and-back-workout",
           "title": "Brute: Arms & Back Workout",
           "image": "/images/workouts/brute-arms-and-back-workout-intro.jpg"
+        },
+        {
+          "slug": "handstand-prep-workout",
+          "title": "Handstand Prep Workout",
+          "image": "/images/workouts/handstand-prep-workout-intro.jpg"
         },
         {
           "slug": "power-pull-workout",
@@ -5035,6 +4995,21 @@
           "image": "/images/workouts/upperbody-builder-workout-intro.jpg"
         },
         {
+          "slug": "chest-and-back-light-workout",
+          "title": "Chest & Back Workout",
+          "image": "/images/workouts/chest-and-back-light-workout-intro.jpg"
+        },
+        {
+          "slug": "rainmaker-workout",
+          "title": "Rainmaker Workout",
+          "image": "/images/workouts/rainmaker-workout-intro.jpg"
+        },
+        {
+          "slug": "stapler-workout",
+          "title": "Stapler Workout",
+          "image": "/images/workouts/stapler-workout-intro.jpg"
+        },
+        {
           "slug": "sculptor-plus-workout",
           "title": "Sculptor Plus Workout",
           "image": "/images/workouts/sculptor-plus-workout-intro.jpg"
@@ -5055,9 +5030,29 @@
           "image": "/images/workouts/pushup-massacre-nc17-workout-intro.jpg"
         },
         {
+          "slug": "forearms-and-triceps-light-workout",
+          "title": "Forearms & Triceps Workout",
+          "image": "/images/workouts/forearms-and-triceps-light-workout-intro.jpg"
+        },
+        {
           "slug": "tank-top-workout",
           "title": "Tank Top Workout",
           "image": "/images/workouts/tank-top-workout-intro.jpg"
+        },
+        {
+          "slug": "shoulder-arms-workout",
+          "title": "Shoulder Work",
+          "image": "/images/workouts/shoulder-arms-workout-intro.jpg"
+        },
+        {
+          "slug": "upperbody-mobility-workout",
+          "title": "Upperbody Mobility Workout",
+          "image": "/images/workouts/upperbody-mobility-workout-intro.jpg"
+        },
+        {
+          "slug": "chest-and-shoulders-light-workout",
+          "title": "Chest & Shoulders Workout",
+          "image": "/images/workouts/chest-and-shoulders-light-workout-intro.jpg"
         },
         {
           "slug": "sculptor-workout",
@@ -5065,9 +5060,24 @@
           "image": "/images/workouts/sculptor-workout-intro.jpg"
         },
         {
+          "slug": "arms-360-workout",
+          "title": "Arms 360 Workout",
+          "image": "/images/workouts/arms-360-workout-intro.jpg"
+        },
+        {
           "slug": "savage-workout",
           "title": "Savage Workout",
           "image": "/images/workouts/savage-workout-intro.jpg"
+        },
+        {
+          "slug": "office-pushups-workout",
+          "title": "Office Push-Ups Workout",
+          "image": "/images/workouts/office-pushups-workout-intro.jpg"
+        },
+        {
+          "slug": "office-pushups2-workout",
+          "title": "Office Push-Ups II Workout",
+          "image": "/images/workouts/office-pushups2-workout-intro.jpg"
         },
         {
           "slug": "paladin-workout",
@@ -5085,6 +5095,11 @@
           "image": "/images/workouts/iron-claw-workout-intro.jpg"
         },
         {
+          "slug": "catch-and-release-workout",
+          "title": "Catch & Release Workout",
+          "image": "/images/workouts/catch-and-release-workout-intro.jpg"
+        },
+        {
           "slug": "reaper-workout",
           "title": "Reaper Workout",
           "image": "/images/workouts/reaper-workout-intro.jpg"
@@ -5100,14 +5115,14 @@
           "image": "/images/workouts/power-25-workout-intro.jpg"
         },
         {
-          "slug": "arms-of-steel-workout",
-          "title": "Arms of Steel Workout",
-          "image": "/images/workouts/arms-of-steel-workout-intro.jpg"
-        },
-        {
           "slug": "homemade-back-workout",
           "title": "Homemade Back Workout",
           "image": "/images/workouts/homemade-back-workout-intro.jpg"
+        },
+        {
+          "slug": "arms-of-steel-workout",
+          "title": "Arms of Steel Workout",
+          "image": "/images/workouts/arms-of-steel-workout-intro.jpg"
         },
         {
           "slug": "armageddon-workout",
@@ -5120,14 +5135,14 @@
           "image": "/images/workouts/boulder-workout-intro.jpg"
         },
         {
-          "slug": "upper-body-workout",
-          "title": "Upper Body Sculpt",
-          "image": "/images/workouts/upper-body-workout-intro.jpg"
-        },
-        {
           "slug": "special-forces-workout",
           "title": "Special Forces Workout",
           "image": "/images/workouts/special-forces-workout-intro.jpg"
+        },
+        {
+          "slug": "upper-body-workout",
+          "title": "Upper Body Sculpt",
+          "image": "/images/workouts/upper-body-workout-intro.jpg"
         },
         {
           "slug": "hammer-workout",
@@ -5150,14 +5165,14 @@
           "image": "/images/workouts/power-18-workout-intro.jpg"
         },
         {
-          "slug": "power-15-workout",
-          "title": "Power 15 Workout",
-          "image": "/images/workouts/power-15-workout-intro.jpg"
-        },
-        {
           "slug": "equalizer-workout",
           "title": "Equalizer Workout",
           "image": "/images/workouts/equalizer-workout-intro.jpg"
+        },
+        {
+          "slug": "power-15-workout",
+          "title": "Power 15 Workout",
+          "image": "/images/workouts/power-15-workout-intro.jpg"
         },
         {
           "slug": "pt-pyramid-workout",
@@ -5165,14 +5180,14 @@
           "image": "/images/workouts/pt-pyramid-workout-intro.jpg"
         },
         {
-          "slug": "power-20-workout",
-          "title": "Power 20 Workout",
-          "image": "/images/workouts/power-20-workout-intro.jpg"
-        },
-        {
           "slug": "power-10-workout",
           "title": "Power 10 Workout",
           "image": "/images/workouts/power-10-workout-intro.jpg"
+        },
+        {
+          "slug": "power-20-workout",
+          "title": "Power 20 Workout",
+          "image": "/images/workouts/power-20-workout-intro.jpg"
         },
         {
           "slug": "banshee-workout",
