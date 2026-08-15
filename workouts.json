@@ -1,11 +1,21 @@
 {
-  "generatedAt": "2026-08-08T06:47:00.125Z",
+  "generatedAt": "2026-08-15T06:33:38.031Z",
   "source": "https://darebee.com",
   "regions": {
     "full": {
       "label": "Full Body",
       "query": "full-body",
       "workouts": [
+        {
+          "slug": "this-counts-workout",
+          "title": "This Counts Workout",
+          "image": "/images/workouts/this-counts-workout-intro.jpg"
+        },
+        {
+          "slug": "solid-choice-workout",
+          "title": "Solid Choice Workout",
+          "image": "/images/workouts/solid-choice-workout-intro.jpg"
+        },
         {
           "slug": "still-here-workout",
           "title": "Still Here! Workout",
@@ -3924,6 +3934,11 @@
       "label": "Upper Body",
       "query": "upper-body",
       "workouts": [
+        {
+          "slug": "neck-strength-workout",
+          "title": "Neck Strength Workout",
+          "image": "/images/workouts/neck-strength-workout-intro.jpg"
+        },
         {
           "slug": "lean-arms-workout",
           "title": "Lean Arms Workout",
