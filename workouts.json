@@ -1,11 +1,16 @@
 {
-  "generatedAt": "2026-08-15T06:33:38.031Z",
+  "generatedAt": "2026-08-22T06:34:45.678Z",
   "source": "https://darebee.com",
   "regions": {
     "full": {
       "label": "Full Body",
       "query": "full-body",
       "workouts": [
+        {
+          "slug": "understudy-workout",
+          "title": "Understudy Workout",
+          "image": "/images/workouts/understudy-workout-intro.jpg"
+        },
         {
           "slug": "this-counts-workout",
           "title": "This Counts Workout",
@@ -3368,6 +3373,11 @@
       "label": "Lower Body",
       "query": "lower-body",
       "workouts": [
+        {
+          "slug": "no-rush-workout",
+          "title": "No Rush Workout",
+          "image": "/images/workouts/no-rush-workout-intro.jpg"
+        },
         {
           "slug": "sovereign-workout",
           "title": "Sovereign Workout",
