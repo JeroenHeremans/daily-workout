@@ -1,11 +1,16 @@
 {
-  "generatedAt": "2026-08-29T12:16:13.917Z",
+  "generatedAt": "2026-09-01T11:04:43.199Z",
   "source": "https://darebee.com",
   "regions": {
     "full": {
       "label": "Full Body",
       "query": "full-body",
       "workouts": [
+        {
+          "slug": "harder-than-it-looks-workout",
+          "title": "Harder Than It Looks Workout",
+          "image": "/images/workouts/harder-than-it-looks-workout-intro.jpg"
+        },
         {
           "slug": "understudy-workout",
           "title": "Understudy Workout",
