@@ -1,11 +1,21 @@
 {
-  "generatedAt": "2026-09-07T11:33:36.575Z",
+  "generatedAt": "2026-09-12T10:04:25.120Z",
   "source": "https://darebee.com",
   "regions": {
     "full": {
       "label": "Full Body",
       "query": "full-body",
       "workouts": [
+        {
+          "slug": "long-story-short-workout",
+          "title": "Long Story Short Workout",
+          "image": "/images/workouts/long-story-short-workout-intro.jpg"
+        },
+        {
+          "slug": "humbling-workout",
+          "title": "Humbling Workout",
+          "image": "/images/workouts/humbling-workout-intro.jpg"
+        },
         {
           "slug": "harder-than-it-looks-workout",
           "title": "Harder Than It Looks Workout",
