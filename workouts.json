@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-12T10:04:25.120Z",
+  "generatedAt": "2026-09-19T10:17:20.198Z",
   "source": "https://darebee.com",
   "regions": {
     "full": {
@@ -2708,6 +2708,11 @@
       "query": "abs",
       "workouts": [
         {
+          "slug": "core-foundation-workout",
+          "title": "Core Foundation Workout",
+          "image": "/images/workouts/core-foundation-workout-intro.jpg"
+        },
+        {
           "slug": "overload-abs-workout",
           "title": "Overload Abs Workout",
           "image": "/images/workouts/overload-abs-workout-intro.jpg"
@@ -3388,6 +3393,11 @@
       "label": "Lower Body",
       "query": "lower-body",
       "workouts": [
+        {
+          "slug": "metronome-workout",
+          "title": "Metronome Workout",
+          "image": "/images/workouts/metronome-workout-intro.jpg"
+        },
         {
           "slug": "no-rush-workout",
           "title": "No Rush Workout",
