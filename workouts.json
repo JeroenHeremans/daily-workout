@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-19T10:17:20.198Z",
+  "generatedAt": "2026-09-26T10:48:03.281Z",
   "source": "https://darebee.com",
   "regions": {
     "full": {
@@ -47,14 +47,14 @@
           "image": "/images/workouts/onyx-workout-intro.jpg"
         },
         {
-          "slug": "couch-to-fit-workout",
-          "title": "Couch To Fit Workout",
-          "image": "/images/workouts/couch-to-fit-workout-intro.jpg"
-        },
-        {
           "slug": "couch-to-fit-plus-workout",
           "title": "Couch To Fit Plus Workout",
           "image": "/images/workouts/couch-to-fit-plus-workout-intro.jpg"
+        },
+        {
+          "slug": "couch-to-fit-workout",
+          "title": "Couch To Fit Workout",
+          "image": "/images/workouts/couch-to-fit-workout-intro.jpg"
         },
         {
           "slug": "prime-time-workout",
@@ -1683,7 +1683,7 @@
         },
         {
           "slug": "superhero-strength-plus-workout",
-          "title": "Superhero Strength Plus",
+          "title": "Superhero Strength Plus Workout",
           "image": "/images/workouts/superhero-strength-plus-workout-intro.jpg"
         },
         {
@@ -2523,7 +2523,7 @@
         },
         {
           "slug": "office-circuit-workout",
-          "title": "Office Circuit",
+          "title": "Office Circuit Workout",
           "image": "/images/workouts/office-circuit-workout-intro.jpg"
         },
         {
@@ -2713,14 +2713,14 @@
           "image": "/images/workouts/core-foundation-workout-intro.jpg"
         },
         {
-          "slug": "overload-abs-workout",
-          "title": "Overload Abs Workout",
-          "image": "/images/workouts/overload-abs-workout-intro.jpg"
-        },
-        {
           "slug": "hover-workout",
           "title": "Hover Workout",
           "image": "/images/workouts/hover-workout-intro.jpg"
+        },
+        {
+          "slug": "overload-abs-workout",
+          "title": "Overload Abs Workout",
+          "image": "/images/workouts/overload-abs-workout-intro.jpg"
         },
         {
           "slug": "three-minute-plank-workout",
@@ -3199,7 +3199,7 @@
         },
         {
           "slug": "washboard-abs-workout",
-          "title": "Washboard Abs",
+          "title": "Washboard Abs Workout",
           "image": "/images/workouts/washboard-abs-workout-intro.jpg"
         },
         {
@@ -3229,7 +3229,7 @@
         },
         {
           "slug": "abs-and-core-workout",
-          "title": "Abs & Core Workout",
+          "title": "Abs & Core Desk Workout",
           "image": "/images/workouts/abs-and-core-workout-intro.jpg"
         },
         {
@@ -3249,7 +3249,7 @@
         },
         {
           "slug": "6minute-abs-workout",
-          "title": "6-Minute Abs",
+          "title": "6-Minute Abs Workout",
           "image": "/images/workouts/6minute-abs-workout-intro.jpg"
         },
         {
@@ -3810,7 +3810,7 @@
         },
         {
           "slug": "muscle-factory-lowerbody-workout",
-          "title": "Muscle Factory Lowerbody",
+          "title": "Muscle Factory Lowerbody Workout",
           "image": "/images/workouts/muscle-factory-lowerbody-workout-intro.jpg"
         },
         {
@@ -4040,14 +4040,14 @@
           "image": "/images/workouts/gravity-shift-workout-intro.jpg"
         },
         {
-          "slug": "bicep-builder-workout",
-          "title": "Bicep Builder Workout",
-          "image": "/images/workouts/bicep-builder-workout-intro.jpg"
-        },
-        {
           "slug": "bicep-builder-no-equipment-workout",
           "title": "No-Equipment Bicep Builder Workout",
           "image": "/images/workouts/bicep-builder-no-equipment-workout-intro.jpg"
+        },
+        {
+          "slug": "bicep-builder-workout",
+          "title": "Bicep Builder Workout",
+          "image": "/images/workouts/bicep-builder-workout-intro.jpg"
         },
         {
           "slug": "lvl999-pushup-workout",
@@ -4741,7 +4741,7 @@
         },
         {
           "slug": "upperbody-tendon-strength-plus-workout",
-          "title": "Upperbody Tendon Strength Plus",
+          "title": "Upperbody Tendon Strength Plus Workout",
           "image": "/images/workouts/upperbody-tendon-strength-plus-workout-intro.jpg"
         },
         {
@@ -4946,7 +4946,7 @@
         },
         {
           "slug": "push-and-pull-express-workout",
-          "title": "Push & Pull Express",
+          "title": "Push & Pull Express Workout",
           "image": "/images/workouts/push-and-pull-express-workout-intro.jpg"
         },
         {
@@ -5046,7 +5046,7 @@
         },
         {
           "slug": "chest-and-back-light-workout",
-          "title": "Chest & Back Workout",
+          "title": "Chest & Back Light Workout",
           "image": "/images/workouts/chest-and-back-light-workout-intro.jpg"
         },
         {
@@ -5081,7 +5081,7 @@
         },
         {
           "slug": "forearms-and-triceps-light-workout",
-          "title": "Forearms & Triceps Workout",
+          "title": "Forearms & Triceps Light Workout",
           "image": "/images/workouts/forearms-and-triceps-light-workout-intro.jpg"
         },
         {
@@ -5091,7 +5091,7 @@
         },
         {
           "slug": "shoulder-arms-workout",
-          "title": "Shoulder Work",
+          "title": "Shoulder Work Workout",
           "image": "/images/workouts/shoulder-arms-workout-intro.jpg"
         },
         {
@@ -5101,7 +5101,7 @@
         },
         {
           "slug": "chest-and-shoulders-light-workout",
-          "title": "Chest & Shoulders Workout",
+          "title": "Chest & Shoulders Light Workout",
           "image": "/images/workouts/chest-and-shoulders-light-workout-intro.jpg"
         },
         {
@@ -5120,14 +5120,14 @@
           "image": "/images/workouts/savage-workout-intro.jpg"
         },
         {
-          "slug": "office-pushups-workout",
-          "title": "Office Push-Ups Workout",
-          "image": "/images/workouts/office-pushups-workout-intro.jpg"
-        },
-        {
           "slug": "office-pushups2-workout",
           "title": "Office Push-Ups II Workout",
           "image": "/images/workouts/office-pushups2-workout-intro.jpg"
+        },
+        {
+          "slug": "office-pushups-workout",
+          "title": "Office Push-Ups Workout",
+          "image": "/images/workouts/office-pushups-workout-intro.jpg"
         },
         {
           "slug": "paladin-workout",
