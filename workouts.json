@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-26T10:48:03.281Z",
+  "generatedAt": "2026-10-01T12:25:29.885Z",
   "source": "https://darebee.com",
   "regions": {
     "full": {
@@ -2088,7 +2088,7 @@
         },
         {
           "slug": "fullbody-render-plus-workout",
-          "title": "Fullbody Render Plus",
+          "title": "Fullbody Render Plus Workout",
           "image": "/images/workouts/fullbody-render-plus-workout-intro.jpg"
         },
         {
@@ -3393,6 +3393,11 @@
       "label": "Lower Body",
       "query": "lower-body",
       "workouts": [
+        {
+          "slug": "standing-glutes-workout",
+          "title": "Standing Glutes Workout",
+          "image": "/images/workouts/standing-glutes-workout-intro.jpg"
+        },
         {
           "slug": "metronome-workout",
           "title": "Metronome Workout",
@@ -5076,7 +5081,7 @@
         },
         {
           "slug": "pushup-massacre-nc17-workout",
-          "title": "Push-Up Massacre NC17",
+          "title": "Push-Up Massacre NC17 Workout",
           "image": "/images/workouts/pushup-massacre-nc17-workout-intro.jpg"
         },
         {
