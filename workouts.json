@@ -1,11 +1,16 @@
 {
-  "generatedAt": "2026-10-04T11:46:17.899Z",
+  "generatedAt": "2026-10-05T13:34:49.957Z",
   "source": "https://darebee.com",
   "regions": {
     "full": {
       "label": "Full Body",
       "query": "full-body",
       "workouts": [
+        {
+          "slug": "sss-rank-workout",
+          "title": "SSS-Rank Workout",
+          "image": "/images/workouts/sss-rank-workout-intro.jpg"
+        },
         {
           "slug": "long-story-short-workout",
           "title": "Long Story Short Workout",
@@ -2623,7 +2628,7 @@
         },
         {
           "slug": "premium-rush-workout",
-          "title": "Premium Rush",
+          "title": "Premium Rush Workout",
           "image": "/images/workouts/premium-rush-workout-intro.jpg"
         },
         {
@@ -5196,7 +5201,7 @@
         },
         {
           "slug": "upper-body-workout",
-          "title": "Upper Body Sculpt",
+          "title": "Upper Body Sculpt Workout",
           "image": "/images/workouts/upper-body-workout-intro.jpg"
         },
         {
