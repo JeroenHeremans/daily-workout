@@ -1,11 +1,16 @@
 {
-  "generatedAt": "2026-10-06T12:44:06.303Z",
+  "generatedAt": "2026-10-07T12:38:00.215Z",
   "source": "https://darebee.com",
   "regions": {
     "full": {
       "label": "Full Body",
       "query": "full-body",
       "workouts": [
+        {
+          "slug": "invicta-workout",
+          "title": "Invicta Workout",
+          "image": "/images/workouts/invicta-workout-intro.jpg"
+        },
         {
           "slug": "sss-rank-workout",
           "title": "SSS-Rank Workout",
