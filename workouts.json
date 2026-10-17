@@ -1,11 +1,21 @@
 {
-  "generatedAt": "2026-10-10T11:53:49.152Z",
+  "generatedAt": "2026-10-17T10:08:07.343Z",
   "source": "https://darebee.com",
   "regions": {
     "full": {
       "label": "Full Body",
       "query": "full-body",
       "workouts": [
+        {
+          "slug": "3-2-1-plus-workout",
+          "title": "3-2-1 Plus Workout",
+          "image": "/images/workouts/3-2-1-plus-workout-intro.jpg"
+        },
+        {
+          "slug": "3-2-1-workout",
+          "title": "3-2-1 Workout",
+          "image": "/images/workouts/3-2-1-workout-intro.jpg"
+        },
         {
           "slug": "invicta-workout",
           "title": "Invicta Workout",
