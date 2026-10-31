@@ -1,11 +1,21 @@
 {
-  "generatedAt": "2026-10-24T10:16:14.602Z",
+  "generatedAt": "2026-10-31T11:40:13.109Z",
   "source": "https://darebee.com",
   "regions": {
     "full": {
       "label": "Full Body",
       "query": "full-body",
       "workouts": [
+        {
+          "slug": "mostly-intact-workout",
+          "title": "Mostly Intact Workout",
+          "image": "/images/workouts/mostly-intact-workout-intro.jpg"
+        },
+        {
+          "slug": "dread-knight-workout",
+          "title": "Dread Knight Workout",
+          "image": "/images/workouts/dread-knight-workout-intro.jpg"
+        },
         {
           "slug": "squire-workout",
           "title": "Squire Workout",
