@@ -1,11 +1,16 @@
 {
-  "generatedAt": "2026-11-01T12:39:48.431Z",
+  "generatedAt": "2026-11-02T14:44:11.062Z",
   "source": "https://darebee.com",
   "regions": {
     "full": {
       "label": "Full Body",
       "query": "full-body",
       "workouts": [
+        {
+          "slug": "buffering-workout",
+          "title": "Buffering Workout",
+          "image": "/images/workouts/buffering-workout-intro.jpg"
+        },
         {
           "slug": "mostly-intact-workout",
           "title": "Mostly Intact Workout",
