@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-03T13:37:16.972Z",
+  "generatedAt": "2026-11-04T13:45:39.794Z",
   "source": "https://darebee.com",
   "regions": {
     "full": {
@@ -2747,6 +2747,11 @@
       "label": "Abs",
       "query": "abs",
       "workouts": [
+        {
+          "slug": "core-compass-workout",
+          "title": "Core Compass Workout",
+          "image": "/images/workouts/core-compass-workout-intro.jpg"
+        },
         {
           "slug": "core-foundation-workout",
           "title": "Core Foundation Workout",
