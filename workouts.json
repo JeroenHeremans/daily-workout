@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-04T13:45:39.794Z",
+  "generatedAt": "2026-11-05T13:58:16.110Z",
   "source": "https://darebee.com",
   "regions": {
     "full": {
@@ -3438,6 +3438,11 @@
       "label": "Lower Body",
       "query": "lower-body",
       "workouts": [
+        {
+          "slug": "hip-pockets-workout",
+          "title": "Hip Pockets Workout",
+          "image": "/images/workouts/hip-pockets-workout-intro.jpg"
+        },
         {
           "slug": "replay-workout",
           "title": "Replay Workout",
